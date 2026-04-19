@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ФИО ученика"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Класс (число)"
+        android:inputType="number"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etLetter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Буква класса (А, Б и т.д.)"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etAvgGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Средний балл (например 4.75)"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>
